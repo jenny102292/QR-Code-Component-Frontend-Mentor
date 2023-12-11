@@ -1,0 +1,50 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 500px;
+	font-family: 'Outfit', sans-serif;
+	background-color: hsl(212, 45%, 89%);
+}
+
+.qrcode {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 250px;
+	background-color: hsl(0, 0%, 100%);
+	border-radius: 10px;
+}
+
+.qrcode-img {
+	margin: 1em 0 1.5em;
+	width: 90%;
+	border-radius: 10px;
+}
+
+
+.qrcode-title {
+	font-size: 17px;
+	font-weight: 700;
+	color: hsl(218, 44%, 22%);
+	width: 90%;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.qrcode-desc {
+	font-size: 13px;
+	font-weight: 400;
+	color: hsl(220, 15%, 55%);
+	padding-top: 10px;
+	width: 90%;
+	text-align: center;
+	margin-bottom: 40px;
+}
